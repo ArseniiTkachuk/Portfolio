@@ -1,0 +1,5 @@
+* text=auto eol=lf
+docs/files/raner.apk filter=lfs diff=lfs merge=lfs -text
+public/files/raner.apk filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
