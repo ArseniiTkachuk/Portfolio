@@ -60,8 +60,21 @@ export default {
                     { name: 'VS Code', icon: 'devicon-vscode-plain', color: '#007acc' },
                     { name: 'Railway', icon: 'devicon-railway-plain', color: '#ffffff' },
                     { name: 'Unreal Engine', icon: 'devicon-unrealengine-plain', color: '#ffffff' },
-                    { name: 'Vite', icon: 'devicon-vitejs-plain coro', color: '#ffdd35' },
                 ],
+                [
+
+                    { name: 'Vite', icon: 'devicon-vitejs-plain coro', color: '#ffdd35' },
+                    { name: 'Linux', icon: 'devicon-linux-plain', color: '#a9bacd'},
+                    { name: 'Arch', icon: 'devicon-archlinux-plain', color: '#4d84b3' },
+                    { name: 'Neo Vim', icon: 'devicon-neovim-plain', color: '#5ca446' },
+                    { name: 'Vim', icon: 'devicon-vim-plain', color: '#099b39' },
+                ],
+              [
+                    { name: 'Zsh', icon: 'devicon-zsh-plain', color: '#ffffff' },
+                    { name: 'Nano', icon: 'devicon-nano-plain', color: '#ffffff' },
+                    { name: 'Mark Down', icon: 'devicon-markdown-plain', color: '#b5b5b8' },
+                    { name: 'OTHERS', icon: 'devicon-other-plain', color: '#b34' },
+              ]
             ],
         }
     },
@@ -128,12 +141,23 @@ export default {
 
 .row-3 {
     gap: 26px;
-    margin-left: -35px;
+    margin-left: 35px;
 }
 
 .row-4 {
-    gap: 35px;
+    gap: 46px;
     margin-left: 30px;
+}
+
+.row-5 {
+    gap: 28px;
+    margin-left: 0px;
+}
+
+
+.row-6 {
+    gap: 39px;
+    margin-left: 35px;
 }
 
 /* skill card */
