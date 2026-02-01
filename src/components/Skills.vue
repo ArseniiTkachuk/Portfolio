@@ -66,7 +66,7 @@ export default {
                     { name: 'Vite', icon: 'devicon-vitejs-plain coro', color: '#ffdd35' },
                     { name: 'Linux', icon: 'devicon-linux-plain', color: '#a9bacd'},
                     { name: 'Arch', icon: 'devicon-archlinux-plain', color: '#4d84b3' },
-                    { name: 'Neo Vim', icon: 'devicon-neovim-plain', color: '#5ca446' },
+                    { name: 'Neo Vim', icon: 'devicon-neovim-plain', color: '#5fb950' },
                     { name: 'Vim', icon: 'devicon-vim-plain', color: '#099b39' },
                 ],
               [

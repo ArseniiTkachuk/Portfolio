@@ -24,7 +24,7 @@
             <div class="contact-info">
                 <div class="info-item">
                     <img src="https://cdn.simpleicons.org/github/08fdd8" alt="GitHub" class="social_icon" />
-                    <a href="https://github.com/ArseniyTkachuk" target="_blank">GitHub</a>
+                    <a href="https://github.com/ArseniiTkachuk" target="_blank">GitHub</a>
                 </div>
 
                 <div class="info-item">
