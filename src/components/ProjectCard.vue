@@ -21,9 +21,6 @@
 
             <div class="project-links">
                 <a v-if="project.demo" :href="project.demo" target="_blank">Demo</a>
-                <a v-if="project.file" @click="download(project.file)" target="_blank">{{
-                    $t('projects.install')
-                }}</a>
                 <a v-if="project.github" :href="project.github" target="_blank">GitHub</a>
             </div>
         </div>

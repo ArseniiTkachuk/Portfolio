@@ -116,7 +116,6 @@ export default {
             { icon: 'devicon-csharp-plain colored' },
           ],
           github: 'https://github.com/ArseniiTkachuk/CasualGame',
-          file: '/files/casual.apk',
         },
         {
           name: 'Python Mario Game',
@@ -144,7 +143,6 @@ export default {
           ),
           technologies: [{ icon: 'devicon-python-plain colored' }],
           github: 'https://github.com/ArseniiTkachuk/Mario',
-          file: '/files/mario.exe',
         },
         {
           name: 'Raner',
@@ -174,7 +172,6 @@ export default {
             { icon: 'devicon-csharp-plain colored' },
           ],
           github: 'https://github.com/ArseniiTkachuk/3DRaner',
-          file: '/files/raner.apk',
         },
         {
           name: 'New Years 2026',
