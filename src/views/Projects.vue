@@ -227,6 +227,36 @@ export default {
           technologies: [{ icon: 'devicon-python-plain colored' }],
           github: 'https://github.com/ArseniiTkachuk/Tanks',
         },
+        {
+          name: 'platformer',
+          description: {
+            en: 'Platformer is a mobile game in the platformer genre where \
+                        the player jumps across platforms, collects coins, \
+                        and avoids obstacles. The main objective is to \
+                        complete levels while demonstrating timing and \
+                        precision. Collected coins can be used to unlock \
+                        new levels and purchase skins, adding progression \
+                        and motivation to the gameplay.',
+
+            ua: 'Platformer — це мобільна гра у жанрі платформера, де гравець \
+                        стрибає по платформах, збирає монети та уникає перешкод. \
+                        Основна мета — пройти рівень, демонструючи реакцію \
+                        та точність керування. Зібрані монети можна \
+                        використовувати для розблокування нових рівнів і \
+                        придбання скінів, що додає прогресію та мотивацію до гри.',
+          },
+          images: Object.values(
+            import.meta.glob('@/assets/photo/projects/prj8/*.jpg', {
+              eager: true,
+              import: 'default',
+            }),
+          ),
+          technologies: [
+            { icon: 'devicon-unity-plain colored', dark: true },
+            { icon: 'devicon-csharp-plain colored' },
+          ],
+          github: 'https://github.com/ArseniiTkachuk/Platformer',
+        },
       ],
     }
   },
