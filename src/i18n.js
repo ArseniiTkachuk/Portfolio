@@ -72,12 +72,9 @@ const messages = {
         part1: 'Get In ',
         part2: 'Touch',
       },
-      description: 'Feel free to contact me for collaboration, questions, or just to say hello.',
-      placeholder: {
-        message: 'Your Message',
-      },
-      btn_send: 'Send Message',
-      anonymous_note: "Send me an anonymous message"
+      description:
+        'I’m always open to new opportunities, interesting projects, and professional challenges. Choose the most convenient way to connect!',
+      let_talk: "Let's build something together",
     },
   },
   ua: {
@@ -150,16 +147,14 @@ const messages = {
     },
     contact: {
       title: {
-        part1: '',
-        part2: "Зв'язатися",
+        part1: "Зв'язатися ",
+        part2: 'зі мною',
       },
+      // Оновив опис
       description:
-        'Не соромтеся звертатися до мене для співпраці, питань або просто щоб привітатися.',
-      placeholder: {
-        message: 'Ваше повідомлення',
-      },
-      btn_send: 'Надіслати Повідомлення',
-      anonymous_note: "Надіслати мені анонімне повідомлення"
+        'Я завжди відкритий до нових можливостей, цікавих проєктів та професійних викликів. Оберіть зручний для вас спосіб зв’язку!',
+      // Новий ключ для великої кнопки
+      let_talk: 'Побудуймо щось разом',
     },
   },
 }
