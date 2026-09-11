@@ -44,7 +44,7 @@ export default {
     z-index: 9999;
 
     background: radial-gradient(circle at center,
-            rgba(3, 255, 226, 0.1) 0%,
+            rgba(3, 255, 226, 0.07) 0%,
             rgba(0, 255, 225, 0) 75%);
 }
 

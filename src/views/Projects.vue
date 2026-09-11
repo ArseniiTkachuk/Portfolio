@@ -20,6 +20,52 @@ export default {
     return {
       projects: [
         {
+          name: 'Sender API',
+          description: {
+            en: 'Sender API is a C# backend application designed for \
+                mass email distribution. It allows uploading recipient \
+                lists, creating email templates, and sending bulk emails \
+                through a queued and controlled process. PostgreSQL is \
+                used for storing recipients, templates, and delivery status. \
+                The project is architected with scalability in mind: a load \
+                balancer distributes incoming requests across API instances, \
+                while outgoing messages are planned to be processed through \
+                Kafka and dedicated worker services that integrate with \
+                third-party delivery providers such as Amazon SES, Twilio, \
+                and push notification services. This design allows the \
+                system to grow from a simple REST API into a fully \
+                event-driven, horizontally scalable notification platform.',
+
+            ua: 'Sender API — це бекенд-застосунок на C#, призначений \
+                для масової розсилки листів. Він дозволяє завантажувати \
+                списки одержувачів, створювати шаблони листів та \
+                виконувати масову розсилку через контрольовану чергу \
+                обробки. Для зберігання одержувачів, шаблонів та статусів \
+                доставки використовується PostgreSQL. Проєкт спроєктований \
+                з урахуванням масштабованості: балансер навантаження \
+                розподіляє вхідні запити між інстансами API, а обробка \
+                вихідних повідомлень планується через Kafka та окремі \
+                воркер-сервіси, що інтегруються зі сторонніми провайдерами \
+                доставки, такими як Amazon SES, Twilio та push-сповіщення. \
+                Такий підхід дозволяє системі розвиватися від простого \
+                REST API до повноцінної event-driven платформи розсилок \
+                з горизонтальним масштабуванням.',
+          },
+          images: Object.values(
+            import.meta.glob('@/assets/photo/projects/prj9/*.png', {
+              eager: true,
+              import: 'default',
+            }),
+          ),
+          technologies: [
+            { icon: 'devicon-csharp-plain colored' },
+            { icon: 'devicon-dotnetcore-plain colored' },
+            { icon: 'devicon-postgresql-plain colored' },
+            { icon: 'devicon-apachekafka-original colored' },
+          ],
+          github: 'https://github.com/ArseniiTkachuk/Sender',
+        },
+        {
           name: 'Portfolio Website',
           description: {
             en: 'Portfolio is a website that presents information \

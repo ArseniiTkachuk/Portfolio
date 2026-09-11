@@ -49,11 +49,11 @@
             </div>
           </a>
 
-          <a href="mailto:ryunoskyeakutagawa@gmail.com" target="_blank" class="link-card">
+          <a href="arsenii.tkachuk.2009.06.12@gmail.com" target="_blank" class="link-card">
             <img src="https://cdn.simpleicons.org/google/08fdd8" alt="Email" />
             <div class="link-text">
               <span class="label">Gmail</span>
-              <span class="username">ryunoskyeakutagawa@...</span>
+              <span class="username">arsenii.tkachuk.200...</span>
             </div>
           </a>
         </div>
